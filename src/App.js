@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Router>
-      <Sidebar />
+        <Sidebar />
       </Router>
       <Footer />
     </div>

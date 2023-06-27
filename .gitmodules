@@ -1,3 +1,3 @@
-# [submodule "src/components/apps/timer-apps"] 
-#    path = src/components/apps/timer-apps
-#    url = https://github.com/cflemmonds/reactFundamentals
+[submodule "src/components/apps/timer-apps"] 
+   path = src/components/apps/timer-apps
+   url = https://github.com/cflemmonds/reactFundamentals

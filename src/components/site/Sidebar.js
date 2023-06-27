@@ -48,6 +48,7 @@ const Sidebar = () => {
                     <Route exact path='/hooks' element={<Hooks />}></Route>
                     <Route exact path='/timer' element={<TimePiecesApp />}></Route>
                     <Route exact path='/nyt' element={<NytApp />}></Route>
+                    <Route exact path='/' element={<Home />}/>
                     {/* <Route exact path='/nytresults' element={<NytResults />}></Route> */}
                 </Routes>
             </div>
