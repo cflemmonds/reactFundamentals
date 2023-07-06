@@ -16,8 +16,14 @@ instructors.forEach(instructor => {    // we use a for each method on the instru
 
 console.log(instructor_names);
 
-const instructor_names = instructors.map(instructor => instructor.name);
-console.log
+//? Here is a sleeker version of the previous solution.
+
+//? First we create a variable called instructorNames that stores the result as an array object.
+//? Second we are calling the .map() method on the instructors array: instructors.map(...).
+//? The instructor paraments in the map() method can be named anything, usually something related to the array. This is shown in the instructorNamesTwo function.
+
+const instructorNames = instructors.map(instructor => instructor.name);
+console.log(instructorNames)
 
 // Exact same thing, different parameter name
 const instructorNamesTwo = instructors.map(i => i.name);
